@@ -5,5 +5,5 @@ def main():
     else:
         print(f"parameters: {len(params)}")
         for p in params:
-        print(f"{p}: {len(p)}")
+             print(f"{p}: {len(p)}")
 main()
