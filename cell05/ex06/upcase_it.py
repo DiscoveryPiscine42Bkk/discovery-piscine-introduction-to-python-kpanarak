@@ -1,2 +1,5 @@
-message = " RTFM (Read the F-ing manual)"
-print(message.upper())
+import sys
+if len(sys.argv) != 2:
+    print("none")
+else:
+    print(sys.argv[1].upper())
